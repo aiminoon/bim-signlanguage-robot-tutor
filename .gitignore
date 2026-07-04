@@ -1,0 +1,29 @@
+# Environment / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl.bak
+
+# ROS / catkin build artifacts
+build/
+devel/
+install/
+*.pyc
+.catkin_workspace
+
+# Trained model binaries (large — see note below)
+model/**/*.h5
+model/**/*.keras
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
