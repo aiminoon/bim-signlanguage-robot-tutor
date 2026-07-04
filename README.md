@@ -104,9 +104,9 @@ bim-signlanguage-robot-tutor/
 │   │   ├── scaler.pkl
 │   │   └── label_encoder.pkl
 │   └── apa_khabar/
-│   │   ├── model.keras
-│   │   ├── scaler.pkl
-│   │   └── label_encoder.pkl
+│       ├── model.keras
+│       ├── scaler.pkl
+│       └── label_encoder.pkl
 ├── package.xml
 ├── CMakeLists.txt
 ├── .env.example
@@ -135,7 +135,7 @@ catkin_make
 
 # 2. Clone this repo into src
 cd src
-git clone https://github.com/<your-username>/bim-signlanguage-robot-tutor.git handsign_detector
+git clone https://github.com/aiminoon/bim-signlanguage-robot-tutor.git handsign_detector
 
 # 3. Configure environment variables
 cd handsign_detector
